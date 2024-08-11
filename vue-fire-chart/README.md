@@ -1,5 +1,13 @@
-# Vue 3 + TypeScript + Vite
+# Vue Fire Chart
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+![image](public/example.png)
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Props
+
+- **circleOptions** `{number}`: The labels for the circles. default: ["Braunkohle", "Steinkohle", "Erdgas", "Windkraft"]
+- **circleData** `{number}`: The height of the circles. default:  [1137, 853, 381, 10]
+- **yaxisTitle** `{string}`: The title of the y-axis. default: "Gramm CO₂ je erzeugter kWh"
+- **textColor** `{string}`: The color of the text. default: "white"
+- **fontSize** `{string}`: The font-size of the text. default: "0.3em"
+- **colors** `{array}`: The colors of the circles. default: ["#d23227", "#f67d20", "#ffe10c", "#fffffd"]
+- **circle** `{boolean}`: If the circles should be circles or ovals. default: true

@@ -30,6 +30,15 @@ export default defineComponent({
       });
     }, 200);
   },
+  /**
+  * @param{number} circleOptions The labels for the circles
+  * @param{number} circleData The height of the circles
+  * @param{string} yaxisTitle The title of the y-axis
+  * @param{string} textColor The color of the text
+  * @param{string} fontSize The font-size of the text
+  * @param{Array} colors The colors of the circles
+  * @param{boolean} circle If the circles should be circles or ovals
+  */
   props: {
     circleOptions: {
       type: Array,
