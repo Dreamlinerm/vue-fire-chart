@@ -1,0 +1,32 @@
+{
+  "name": "vue-fire-chart",
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-fire-chart-lib.umd.cjs",
+  "module": "./dist/vue-fire-chart-lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-fire-chart-lib.js",
+      "require": "./dist/vue-fire-chart-lib.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.35"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0",
+    "vue-tsc": "^2.0.29"
+  }
+}
