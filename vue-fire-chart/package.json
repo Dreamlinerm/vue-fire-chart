@@ -5,12 +5,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-fire-chart-lib.umd.cjs",
-  "module": "./dist/vue-fire-chart-lib.js",
+  "main": "./dist/vue-fire-chart.umd.cjs",
+  "module": "./dist/vue-fire-chart.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-fire-chart-lib.js",
-      "require": "./dist/vue-fire-chart-lib.umd.cjs"
+      "import": "./dist/vue-fire-chart.js",
+      "require": "./dist/vue-fire-chart.umd.cjs"
     },
     "./style.css": "./dist/style.css"
   },

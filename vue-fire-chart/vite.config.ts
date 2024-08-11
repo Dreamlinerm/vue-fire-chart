@@ -11,7 +11,7 @@ export default defineConfig({
       entry: resolve(__dirname, "src/index.ts"),
       name: "vue-fire-chart",
       // the name of the output files when the build is run
-      fileName: "vue-fire-chart-lib",
+      fileName: "vue-fire-chart",
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
