@@ -2,6 +2,15 @@
 
 ![Example Image](dist/example.png)
 
+## Install 
+
+`npm i vue-fire-chart`
+
+## Import
+
+`import { fireChart } from 'vue-fire-chart'`
+
+
 ## Props
 
 - **circleOptions** `{number}`: The labels for the circles. 
