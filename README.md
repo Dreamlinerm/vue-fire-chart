@@ -1,6 +1,6 @@
 # Vue Fire Chart
 
-![Example Image](vue-fire-chart/dist/example.png)
+![Example Image](vue-fire-chart/public/example.png)
 
 ## Install 
 
